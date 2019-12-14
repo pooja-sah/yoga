@@ -1,0 +1,198 @@
+body{
+	background: url("index.jpg");
+
+}
+h1{
+	font-size: 25pt;
+	text-shadow: crimson -1px -2px 0.4em;
+	border-style: dotted;
+	border-width: 5px;
+	border-color: white;
+	color: yellow;
+	margin-right: 500px;
+	margin-left: 500px;
+
+
+
+}
+h2.titulo{
+	color: yellow;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 30pt;
+}
+img.entreno{
+	float: right;
+	border-color: white;
+
+}
+img{
+	float: right;
+}
+p.caja{
+	width: 96%;
+	height: 60%;
+	font-size: 17pt;
+	background-color: lightblue;
+	float: center;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+	animation-name: colorchange;
+	animation-duration: 8s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+
+}
+@keyframes colorchange{
+	0%{
+		background-color: lightblue;
+
+	}
+	50%{
+		background-color: aqua;
+	}
+	100%{
+		background-color: yellow;
+	}
+}
+p{
+	font-size: 15pt;
+	color: white;
+
+}
+ol{
+	color: white;
+	font-size: 15pt;
+}
+p.cajao{
+
+	width: 96%;
+	height: 50%;
+	font-size: 20pt;
+	background-color: lightblue;
+	float: center;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+
+	animation-name: colorchanges;
+	animation-duration: 8s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+@keyframes colorchanges{
+	0%{
+		background-color: silver;
+
+	}
+	50%{
+		background-color: green;
+	}
+	100%{
+		background-color: pink;
+	}
+
+}
+p.cajaF{
+	width: 95%;
+	height: 205px;
+	background: pink;
+	float: center;
+	border-radius: 10px;
+	color: black; 
+}
+p.cajaG{
+
+	width: 98%;
+	height: 65%;
+	font-size: 20pt;
+	background-color: lightblue;
+	float: center;
+	border-radius: 10px;
+	padding: 10px;
+	color: black;
+
+	animation-name: colorchangess;
+	animation-duration: 8s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+@keyframes colorchangess{
+	0%{
+		background-color: yellow;
+
+	}
+	25%{
+		background-color: green;
+	}
+	50%{
+		background-color: teal;
+	}
+	75%{
+		background-color: lightred;
+	}
+	100%{
+		background-color: gold;
+	}
+
+
+}
+h2.titulo1{
+	color: yellow;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 30pt;
+}
+img.entreno1{
+	float: right;
+	border-color: white;
+
+}
+img{
+	float: right;
+}
+p.cajaD{width: 98%;
+	height: 185px;
+	background: pink;
+	float: center;
+	padding: 10px;
+	border-radius: 10px;
+	color: black; 
+
+	animation-name: colorchangesss;
+	animation-duration: 8s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+@keyframes colorchangesss{
+	0%{
+		background-color: yellow;
+
+	}
+	25%{
+		background-color: green;
+	}
+	50%{
+		background-color: teal;
+	}
+	75%{
+		background-color: lightred;
+	}
+	100%{
+		background-color: gold;
+	}
+.third{
+		float: right;
+		border-color: white;
+	}
+
